@@ -1,0 +1,55 @@
+
+.card{
+    width: 600px;
+    height: 860px;
+    margin-top: 80px;
+     border:1px solid rgb(207, 205, 205);
+
+    #img{
+        height: 600px;
+    }
+    .cardprofile{
+        font-size: 20px;
+        padding:10px 0px 0px 20px;
+        font-weight: bold;
+        height: 60px;
+
+        img{
+            border-radius: 20px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    .fa-regular{
+       margin-top: 20px;
+       padding-left: 10px;
+       cursor: pointer;
+    }
+    h6{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    p{
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    
+    span{
+        position: relative;
+        display: block;
+        margin-top: 0px;
+        font-size: 15px;
+        margin-left: 15px;
+       
+       
+    }
+
+    input{
+        padding: 10px;
+        
+    }
+}
+
+

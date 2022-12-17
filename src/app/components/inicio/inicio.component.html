@@ -1,0 +1,64 @@
+
+<app-navbar></app-navbar>
+<div class="container d-flex">
+
+  <div>
+<div class="card">
+  <div class="cardprofile">
+    <img src="../../../assets/daphne.jpg" width="30px"> velmadinkley
+  </div>
+<img id="img" src="../../../assets/pug.jpg">
+<div class="cardcomments">
+  <i class="fa-regular fa-heart fa-xl"></i>
+  <i class="fa-regular fa-comment fa-xl" (click)="focus()"></i>
+  
+  <div>
+    <h6>23 likes</h6>
+   
+    <p><b>velmadinkley</b> Madagascar from the sky</p>
+    <div class="">
+     <p *ngIf="bolean" class="sp">{{search}}</p>
+     
+    <span>2 MINUTES AGO</span>
+    </div>
+    <div class="tru d-flex">
+    <input (keyup.enter)="dou($event)" id="input" class="form-control" placeholder="Add a comment">
+    
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="card">
+  <div class="cardprofile">
+    <img src="../../../assets/vilma.jpg" width="30px"> velmadinkley
+  </div>
+<img id="img" src="../../../assets/pug2.jpg">
+<div class="cardcomments">
+  <i class="fa-regular fa-heart fa-xl"></i>
+  <i class="fa-regular fa-comment fa-xl" (click)="focus()"></i>
+  
+  <div>
+    <h6>23 likes</h6>
+   
+    <p><b>velmadinkley</b> Madagascar from the sky</p>
+    <div class="">
+     <p *ngIf="bolean" class="sp">{{search}}</p>
+     
+    <span>2 MINUTES AGO</span>
+    </div>
+    <div class="tru d-flex">
+    <input (keyup.enter)="dou($event)" id="input" class="form-control" placeholder="Add a comment">
+    
+  </div>
+  </div>
+</div>
+</div>
+  </div>
+  
+<div class="mil  mx-5">
+  <app-sugerencias></app-sugerencias>
+</div>
+
+
+</div>

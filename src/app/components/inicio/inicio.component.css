@@ -1,0 +1,42 @@
+.card {
+  width: 650px;
+  height: 860px;
+  margin-top: 80px;
+  border: 1px solid rgb(207, 205, 205);
+}
+.card #img {
+  height: 600px;
+}
+.card .cardprofile {
+  font-size: 20px;
+  padding: 10px 0px 0px 20px;
+  font-weight: bold;
+  height: 60px;
+}
+.card .cardprofile img {
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+}
+.card .fa-regular {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.card h6 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card p {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.card span {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.card input {
+  padding: 10px;
+}/*# sourceMappingURL=inicio.component.css.map */

@@ -1,0 +1,37 @@
+.perfil {
+  margin-left: 30%;
+  margin-top: 30px;
+  display: flex;
+}
+.perfil img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: -100px;
+  margin-top: -15px;
+}
+.perfil .b {
+  padding-left: 50px;
+  margin-left: 60px;
+}
+.perfil .b span, .perfil .b b {
+  padding-left: 10px;
+}
+.perfil .b h4 {
+  margin-bottom: 20px;
+}
+.perfil .b h5 {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.feed {
+  margin-top: 70px;
+}
+.feed img {
+  margin-top: -10px;
+  margin-left: 230px;
+  width: 280px;
+  height: 350px;
+  cursor: pointer;
+}/*# sourceMappingURL=perfil.component.css.map */

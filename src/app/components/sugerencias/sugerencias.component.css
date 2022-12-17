@@ -1,0 +1,56 @@
+.mul {
+  margin-top: 70px;
+}
+.mul b {
+  margin-left: 20px;
+}
+.mul span {
+  width: 500px;
+}
+.mul img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.mol .btn {
+  display: block;
+  margin-left: 280px;
+  margin-top: -40px;
+}
+.mol img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+.mol li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.mol b {
+  margin-left: 25px;
+}
+.mol button {
+  margin-left: 100px;
+}
+.mol .d {
+  display: block;
+  margin-left: 290px;
+  margin-top: -35px;
+}
+.mol .i {
+  display: block;
+  margin-left: 290px;
+  margin-top: -35px;
+}
+
+button {
+  background-color: white;
+  padding: 3px;
+  font-size: 17px;
+  font-weight: bold;
+  color: blue;
+  border-radius: 10px;
+  border: none;
+}/*# sourceMappingURL=sugerencias.component.css.map */

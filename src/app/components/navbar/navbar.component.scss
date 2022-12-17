@@ -1,0 +1,17 @@
+nav{
+    background-color: rgb(82, 82, 119) !important;
+    height: 60px;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+    h1{
+        margin-left: 20px;
+        color: white;
+        font-weight: 400;
+    }
+
+    .fa-solid{
+        cursor: pointer;
+    }
+}

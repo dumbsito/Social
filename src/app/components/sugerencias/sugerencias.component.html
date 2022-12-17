@@ -1,0 +1,20 @@
+<div class="mul d-flex">
+    <img routerLink="/perfil" 
+    src="../../../assets/shaggy.jpg">
+    
+    <div class="mt-2 d-flex flex-column">
+    <b class="mx-3">Shaggydipp</b>
+    <span class="mx-3">Shaggy Rogers</span>
+</div>
+  </div>
+
+  <div class="mol mt-4">
+    <h3 (click)="lo()">Suggestions for you</h3>
+    <ul class="mt-4" *ngFor="let item of personajes">
+      <li><img [src]="item.imagen"><b>{{item.nombre}}</b>  <button 
+      
+       class="btn" 
+       (click)="agregar(item.id,item)">Follow</button>
+      </li>
+    </ul>
+  </div>
